@@ -2,14 +2,16 @@
 
 import wlutils.err.*
 
-# try to open the conf.w file
+def lexconfig():
+    """Try to lex the configuration file, if there is any"""
+    # try to open the conf.w file
 
-try:
-    file = open("conf.w", "r")
+    try:
+        file = open("conf.w", "r")
 
-except:
-    raise ConfigFileNotFound("conf.w not found in this directory")
+    except:
+        raise ConfigFileNotFound("conf.w not found in this directory")
 
-# found conf.w
+    # found conf.w
 
-content = "\n".join(file.readlines())
+    content = "\n".join(file.readlines())
