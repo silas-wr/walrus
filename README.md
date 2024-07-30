@@ -1,4 +1,5 @@
 # walrus
+
 [![Walrus.sh](https://github.com/silas-wr/walrus/actions/workflows/shell.yml/badge.svg)](https://github.com/silas-wr/walrus/actions/workflows/shell.yml)
 [![Codacy](https://github.com/silas-wr/walrus/actions/workflows/codacy.yml/badge.svg)](https://github.com/silas-wr/walrus/actions/workflows/codacy.yml)
 
