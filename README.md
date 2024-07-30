@@ -1,4 +1,6 @@
 # walrus
+[![Walrus.sh](https://github.com/silas-wr/walrus/actions/workflows/shell.yml/badge.svg)](https://github.com/silas-wr/walrus/actions/workflows/shell.yml)
+[![Codacy](https://github.com/silas-wr/walrus/actions/workflows/codacy.yml/badge.svg)](https://github.com/silas-wr/walrus/actions/workflows/codacy.yml)
 A logging program for any project.
 
 My goal for this project is to be able to generate logs for any project in all (or most) languages.
