@@ -8,7 +8,7 @@ printf "\033[0;1m--------------------------------------------------------\033[0;
 
 printf "Welcome to the Walrus logging platform!\n" 
 
-if [ -z $1 ];
+if [ -z "$1" ];
 then
   printf "What would you like to do today?\n\n"
 
@@ -17,12 +17,12 @@ then
   printf "3) Learn how to use Walrus\n\n"
 
 else
-  if [ $1 = "-i" ];
+  if [ "$1" = "-i" ];
   then
     printf "[i] input overridden. test succeeded.\n"
 
   else
-    printf "[!] unknown option $1\n"
+    printf "[!] unknown option %s\n" $1
 
   fi
 
