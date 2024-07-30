@@ -2,10 +2,10 @@
 
 # Add your folder
 
-If you want to add a new programming language, make a new fork of this project, add a folder with the name of the programming language under the `src` folder, and make your
+If you want to add a new programming language, make a new fork of this project, add a folder with the name of the programming language under the `src/walrus` folder, and make your
 changes.
 
-For example, if there are two languages, `java` and `python` in `src`
+For example, if there are two languages, `java` and `python` in `src/walrus`
 
 ```
 ==============================================================
