@@ -2,21 +2,17 @@
 
 # Add your folder
 
-If you want to add a new programming language, make a new fork of this project, add a folder with the name of the programming language under the `src/walrus` folder, and make your
+If you want to add a new programming language, make a new fork of this project, add a folder with the name of the programming language in the root folder, and make your
 changes.
 
-For example, if there are two languages, `java` and `python` in `src/walrus`
+For example, if there are two languages, `java` and `python`
 
 ```
 ==============================================================
-src/
-|----- walrus/
-|----- |------ java/
-|----- |------ |----- com/
-|----- |------ |----- |----- walrus/
-|----- |------ |----- |----- |--------- Main.java
-|----- |------ python/
-|----- |------ |--------- __init__.py
+java/
+|---- ...
+python/
+|---- ...
 ==============================================================
 ```
 
@@ -24,16 +20,12 @@ you can add programming language `weird` to your pull request.
 
 ```
 ==============================================================
-src/
-|----- walrus/
-|----- |------ java/
-|----- |------ |----- com/
-|----- |------ |----- |----- walrus/
-|----- |------ |----- |----- |--------- Main.java
-|----- |------ python/
-|----- |------ |--------- __init__.py
-|----- |------ weird/
-|----- |------ |-------- entry.wrd
+java/
+|---- ...
+python/
+|---- ...
+weird/
+|---- ...
 ==============================================================
 ```
 
