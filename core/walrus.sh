@@ -24,9 +24,11 @@ then
     printf "1: new project\n"
 
   elif [ "$option" = "2" ];
+  then
     printf "2: directory status\n"
 
   elif [ "$option" = "3" ];
+  then
     printf "3: manual page\n"
 
   else
