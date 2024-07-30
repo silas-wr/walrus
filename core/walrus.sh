@@ -23,10 +23,10 @@ then
   then
     printf "1: new project\n"
 
-  elif [ "$option" = "2"];
+  elif [ "$option" = "2" ];
     printf "2: directory status\n"
 
-  elif [ "$option" = "3"];
+  elif [ "$option" = "3" ];
     printf "3: manual page\n"
 
   else
