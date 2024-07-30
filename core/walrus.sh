@@ -16,7 +16,24 @@ then
   printf "2) See Walrus status for this directory\n"
   printf "3) Learn how to use Walrus\n\n"
 
-  read -n 1 -p "Select one option: " opt
+  printf "Select one option: "
+  option=$(dd bs=1 count=1 2>/dev/null)
+
+  if [ "$option" = "1" ];
+  then
+    printf "1: new project\n"
+
+  elif [ "$option" = "2"];
+    printf "2: directory status\n"
+
+  elif [ "$option" = "3"];
+    printf "3: manual page\n"
+
+  else
+    printf "I didn't understand"
+    exit 1
+
+  fi
 
 else
   if [ "$1" = "-i" ];
@@ -25,6 +42,7 @@ else
 
   else
     printf "[!] unknown option %s\n" "$1"
+    exit 1
 
   fi
 
