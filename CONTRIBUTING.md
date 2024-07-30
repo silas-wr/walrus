@@ -1,6 +1,6 @@
 # Contributing to the Walrus project
 
-# Add your folder
+## Add your folder
 
 If you want to add a new programming language, make a new fork of this project, add a folder with the name of the programming language in the root folder, and make your
 changes.
