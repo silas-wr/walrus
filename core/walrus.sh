@@ -22,7 +22,7 @@ else
     printf "[i] input overridden. test succeeded.\n"
 
   else
-    printf "[!] unknown option %s\n" $1
+    printf "[!] unknown option %s\n" "$1"
 
   fi
 
